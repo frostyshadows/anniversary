@@ -7,7 +7,8 @@ const tileData = [
     items: [
       'Vancouver',
       'Seattle',
-    ]
+    ],
+    open: false,
   },
   {
     img: '/static/images/grid-list/burgers.jpg',
@@ -22,7 +23,8 @@ const tileData = [
       'Tokyo',
       'Osaka',
       'San Francisco',
-    ]
+    ],
+    open: false,
     // Vancouver, Seattle, Chicago, Waterloo, Shanghai, Suzhou, Tokyo, Osaka, San Francisco
   },
   {
@@ -31,7 +33,8 @@ const tileData = [
     items: [
       'Vancouver',
       'Seattle',
-    ]
+    ],
+    open: false,
   },
   {
     img: '/static/images/grid-list/morning.jpg',
@@ -47,7 +50,8 @@ const tileData = [
       'Coding for All',
       'Fluffy Tab',
       'LearnersQuiz',
-    ]
+    ],
+    open: false,
   },
   {
     img: '/static/images/grid-list/hats.jpg',
@@ -57,7 +61,8 @@ const tileData = [
       'Arcade Fire',
       'Skookum',
       'Warped Tour',
-    ]
+    ],
+    open: false,
     // Coldplay, Arcade Fire, Skookum, Warped
   },
 ];
