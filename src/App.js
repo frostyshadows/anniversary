@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Days from './components/Days.jsx';
 import StatsGrid from './components/StatsGrid.jsx';
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
   render() {

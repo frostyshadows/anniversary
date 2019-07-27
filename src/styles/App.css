@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  text-align: center;
+  background-color: #282c34;
+  color: #fffce6;
+}
+
+.Days {
+  padding-top: 16%;
+  padding-bottom: 20%;
+}
+
+.happyText, .togetherText {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 32px;
+}
+
+.timeText {
+  font-family: 'Cormorant Garamond', Serif;
+  font-style: italic;
+  font-size: 56px; 
+  margin: 12px;
+}
+
+.statsText {
+  font-family: 'Cormorant Garamond', Serif;
+  font-style: italic;
+  font-size: 56px;
+}
+
+.StatsGrid {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.StatsGrid > * {
+  margin-bottom: 40px;
+}
+
+.MuiGridListTileBar-title, .MuiTypography-root.MuiListItemText-primary.MuiTypography-body1 {
+  font-family: 'Fira Sans', Sans-Serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.MuiGridListTile-root {
+  width: 30%;
+}
+
+.tile {
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.MuiGridListTileBar-root.tileText.MuiGridListTileBar-titlePositionBottom {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup-content {
+  color: #282c34;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

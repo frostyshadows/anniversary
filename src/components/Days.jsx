@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import moment from 'moment';
+import '../styles/App.css';
 
 class Days extends Component {
 
@@ -14,10 +15,10 @@ class Days extends Component {
   render() {
     const timeSince = this.calculateTimeSince()._data;
     return (
-      <div className="App" >
-        <p> Happy </p>
-        <p> {timeSince.years} years, {timeSince.months} months, and {timeSince.days} days </p>
-        <p> together, Russell! </p>
+      <div className="Days" >
+        <p className="happyText"> Happy </p>
+        <p className="timeText"> {timeSince.years} years, {timeSince.months} months, and {timeSince.days} days </p>
+        <p className="togetherText"> together, Russell! </p>
       </div>
     );
   }
