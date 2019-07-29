@@ -48,7 +48,7 @@ export default function TitlebarGridList() {
               />
             </div>
           </GridListTile>}
-          position="right center">
+          position={`${tile.popupDir} center`}>
           <div>
             <List component="nav" aria-label="Main mailbox folders">
               {tile.items.map(item => (

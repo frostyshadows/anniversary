@@ -9,6 +9,7 @@ const tileData = [
       'Seattle',
     ],
     open: false,
+    popupDir: 'right',
   },
   {
     img: 'cities.PNG',
@@ -25,6 +26,7 @@ const tileData = [
       'San Francisco',
     ],
     open: false,
+    popupDir: 'right',
     // Vancouver, Seattle, Chicago, Waterloo, Shanghai, Suzhou, Tokyo, Osaka, San Francisco
   },
   {
@@ -44,9 +46,10 @@ const tileData = [
       'The Master and Margarita',
     ],
     open: false,
+    popupDir: 'left',
   },
   {
-    img: 'cities.PNG',
+    img: 'hackathon.PNG',
     title: '8 software projects',
     // nekoTap @ nwHacks 2019, Koshu @ Hack the North, Tender @ nwHacks 2018, Alternative Tweets @ nwHacks 2017, Mood Music Bot @ Local Hack Day, Coding for All, FluffyTab, LearnersQuiz
     featured: true,
@@ -61,6 +64,7 @@ const tileData = [
       'LearnersQuiz',
     ],
     open: false,
+    popupDir: 'right',
   },
   {
     img: 'cities.PNG',
@@ -72,6 +76,7 @@ const tileData = [
       'Warped Tour',
     ],
     open: false,
+    popupDir: 'left',
     // Coldplay, Arcade Fire, Skookum, Warped
   },
 ];
