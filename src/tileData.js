@@ -5,8 +5,10 @@ const tileData = [
     cols: 2,
     featured: true,
     items: [
-      'Vancouver',
-      'Seattle',
+      'First anniversary',
+      'First Valentine\'s',
+      'Second Valentine\'s',
+      'when we felt like it x 2'
     ],
     open: false,
     popupDir: 'right',
@@ -67,7 +69,7 @@ const tileData = [
     popupDir: 'right',
   },
   {
-    img: 'cities.PNG',
+    img: 'concert.PNG',
     title: '4 Concerts',
     items: [
       'Coldplay',

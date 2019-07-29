@@ -18,7 +18,7 @@ class Days extends Component {
       <div className="Days" >
         <p className="happyText"> Happy </p>
         <p className="timeText"> {timeSince.years} years, {timeSince.months} months, and {timeSince.days} days </p>
-        <p className="togetherText"> together, Russell! </p>
+        <p className="russellText">Russell! </p>
       </div>
     );
   }
